@@ -1,64 +1,72 @@
-<title>Something about me
-</title>
-
+ï»¿<html>
 <head>
 
-</head>
 
+  <!-- è¡¨å–® -->
+<form action="#" method="post" id="myform">
+    <!-- å€å¡Š -->
+   <div>
+    	 <!-- æ¨™è¨˜æ–‡å­— for (quick select)-->
+      <label for="name"><h4>hidden_id:</h4></label>
+         
+         <!-- è¼¸å…¥æ¡† type, name, id, value, tabindex, password-->
+         <input type="hidden" name="entry.0.single" value="your_id">
+ </div>
+      
+    <div>
+         <h4>Gender</h4>
+         <label for="male">Boy</label>     
+         <input type="radio" name="entry.1.group" id="male" tabindex="2" value="male" >
 
-<body>
-
-    <div class="top">
-   <img src="http://www.alice-in-wonderland.net/alicepic/alice-in-wonderland/1book24.jpg" alt="">
+		 <label for="female">Girl</label>
+         <input type="radio" name="entry.1.group" id="female" tabindex="3" value="female" >
     </div>
     
-   <div id="header">
-    </div>       
-   
-   <div id="globallbar">
-       <ul>
-           <span><a href="thisPage">About me</a></span>
-           <span><a href="anotherPage">Contact</a></span>
-       </ul>
-   </div>
-       <hr size="2" align="center" noshade color=gray>
+    <div id="foods">
+   	  <h4>Favorite Foods</h4>
+        <!-- radio box , checked -->
+		<input name="entry.2.group" type="checkbox" id="Apple" value="Apple" >
+        <label for="Apple">Apple</label><br/>
+        <input name="entry.2.group" type="checkbox" id="banana" value="banana" >
+        <label for="banana">Banana</label><br/>
+        <input name="entry.2.group" type="checkbox" id="Lemon" value="Lemon" >
+        <label for="Lemon">Lemon</label><br/>
+        <input name="entry.2.group" type="checkbox" id="Watermelon" value="Watermelon" >
+        <label for="Watermelon">Watermelon</label>
+    </div>
+    
+	<div>
+	  <label for="select-choice"><h4>Relationship:</h4></label>
+        <!-- é¸å–® , list, selected -->
+		<select name="entry.3.single" id="select-choice">
+			<option value="Choice 1" selected="selected">Single</option>
+			<option value="Choice 2">Dating</option>
+			<option value="Choice 3">Merried</option>
+			<option value="Choice 3">hard to explain</option>
+		</select>
+	</div>
+	
+	<div>
+		<label for="textarea"><h4>Comment:</h4></label><br/>
+        <!-- æ–‡å­—æ¡†-->
+		<textarea cols="40" rows="8" name="entry.5.single" id="textarea"></textarea>
+	</div>
+	
+	
 
-      
-    <p>
- <img src="https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-prn1/335905_465586250120640_877738877_o.jpg" alt="·R¿ß"/>
- </p>      
-   <div id="content">
-      
-       <p>¥x¥_¤H¡A¦n¹³·Q°µ«Ü¦h¨Æ¡A¦ý¤S¦n¹³·Q¤°»ò¤]¤£°µ¡C<br/>
-           ¨­¥­¨S¤°»ò¤j§Ó¡A¦ýÁÙ¬O·Q³Q°O¦íÂI¤°»ò¡A¦pªG¦³¯à¤Oªº¸Ü·|·Q¥Î¦×¨­©è¾×­nºR·´¦a²yªº¹k¥Û¤§Ãþªº¡C(«e´£¬O¤£·|¦º±¼)
-       </p>
-       <p>³ßÅw¶î¾~¡A¤×¨ä¦b½Ò¥»ÃäÃä¶Ã¹Ï¶Ãµe¡A¦ý¬O­n¦Û¤v¬ðµMÀR¤U¤@¬q®É¶¡¨Ó±Mªùµeµe«o«ÜÃø¡C<br/>
-           ¤£ª¾¹D¬O¤£¬O¦]¬°¦Û¤v­^¤å¦W¦r¤]¥s·RÄRµ·ªºÃö«Y¡A·RÄRµ·¬ÛÃö¼ö·R¤¤¬r¨ì·|¦Rªº¦a¨B¡A³ßÅw©_¤Û¡B¤£¤Á¹ê»Ú¡A·Q©À¤p«Ä¤lªº¸£¤l¡C<br/>
-           °¸º¸¤]³ßÅw­IµÛ¬Û¾÷¥h«°¥«¤¤´²¨B¡A¨«°¨¬Ýªáªº¨B½Õ³Ì­è¦n¡C<br/>
-           ²{¦b¦b¾Çªºµ{¦¡³]­p­W¤â¨ì·Q­úª_¡A¦ýÁÙ¬O«D±`·Q§â¥L¾Ç¦n¡A§Ú·Q§Ú¸Ó§ó¦­¶}©l¼g§@·~ªº¡C
-       </p>
-   </div>
-     
-   <div id="content2">
-       <p>¸g¾ú:
-           <ul>
-           <li>1998-2004  ¤¤©M¨q¤s°ê¤p</li>
-           <li>2004-2007  ¥Ã©M°ê¤¤</li>
-           <li>2007-2010  ¥«¥ß¤j¦P°ª¤¤</li>
-           <li>2010-&nbsp&nbsp&nbsp&nbsp¬Fªv¤j¾Ç ¥D­×¾ú¥v¾Ç¨t<br /> 
-    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspÂù¥D­× ¼Æ¦ì¤º®e»P¬ì§Þ¾Ç¤h¾Ç¦ì¾Çµ{</li>
-           </ul>
-           </p>
-      </div>
-       
-       
-         
-           
-           
-           
-          
+	<div>
+	   <input type="submit" value="é€å‡º" name="submit" >
+    </div>
+</form>
 
-       
-       
-       
+<form action="https://docs.google.com/spreadsheet/formResponse?formkey=dDhFdFBITDc2X3FaUGNPaGRWb29mNlE6MQ&ifq" method="POST">
+
+
+
+
+
+
+
 </body>
+
+</html>
