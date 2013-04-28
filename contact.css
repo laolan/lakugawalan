@@ -1,6 +1,6 @@
 ﻿body {
         margin: 0px;   
-        background-color:#D9D9D9
+        background-color:gray;
         }
 
 
@@ -16,3 +16,6 @@
         background-image:url('1book1.jpg')        }
         
         
+#content {
+				background-color:#D9D9D9;
+}
